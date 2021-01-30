@@ -70,7 +70,7 @@ export default {
     async fetchUserData() {
       const user = await fetch(`https://api.github.com/users/${this.inputV}`, {
         headers: {
-          authorization: "token f0ec32cb22452a793aa4e37a87f17a4899c5cc2c",
+          authorization: "token c400dda54386395dae89",
           accept: "application/vnd.github.v3+json",
         },
       });
@@ -87,7 +87,7 @@ export default {
         `https://api.github.com/users/${this.inputV}/repos?per_page=100`,
         {
           headers: {
-            authorization: "token f0ec32cb22452a793aa4e37a87f17a4899c5cc2c",
+            authorization: "token c400dda54386395dae89",
             accept: "application/vnd.github.v3+json",
           },
         }
